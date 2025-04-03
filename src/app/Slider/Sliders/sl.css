@@ -1,0 +1,121 @@
+.swiper {
+    width: 100%;
+    max-width: 450px; /* Matches iframe max-width */
+    height: 250px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+#s1 {
+    background-image: url('../../assets/sl1.webp');
+    background-size: cover;
+    background-position: center;
+
+
+
+
+}
+
+#s2 {
+    background-image: url('../../assets/sl2.webp');
+    background-size: cover;
+    background-position: center;
+
+
+
+
+}
+
+
+#s3 {
+    background-image: url('../../assets/sl3.webp');
+    background-size: cover;
+    background-position: center;
+
+
+
+
+}
+
+
+
+#si1 {
+    background-image: url('../../assets/si1.webp');
+    background-size: cover;
+    background-position: center;
+
+
+
+
+}
+
+#si2 {
+    background-image: url('../../assets/si2.webp');
+    background-size: cover;
+    background-position: center;
+
+
+
+
+}
+
+
+#si3 {
+    background-image: url('../../assets/si3.webp');
+    background-size: cover;
+    background-position: center;
+
+
+
+
+}
+
+
+
+#sx1 {
+    background-image: url('../../assets/sx1.webp');
+    background-size: cover;
+    background-position: center;
+
+
+
+
+}
+
+#sx2 {
+    background-image: url('../../assets/sx2.webp');
+    background-size: cover;
+    background-position: center;
+
+
+
+
+}
+
+
+#sx3 {
+    background-image: url('../../assets/sx3.webp');
+    background-size: cover;
+    background-position: center;
+
+
+
+
+}
+

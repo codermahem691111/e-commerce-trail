@@ -1,0 +1,74 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mySwiper {
+  height: 40vh;
+  width: full;
+}
+
+#sl1 {
+  background-image: url('../assets/hero1.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+#sl2 {
+  background-image: url('../assets/hero2.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+#sl3 {
+  background-image: url('../assets/hero3.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+#sl4 {
+  background-image: url('../assets/hero4.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+#sl5 {
+  background-image: url('../assets/hero5.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+#sl6 {
+  background-image: url('../assets/hero6.webp');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .mySwiper {
+    height: 30vh; /* Reduced height on mobile */
+  }
+  
+  #sl1, #sl2, #sl3, #sl4, #sl5, #sl6 {
+    background-size: contain; /* Try contain instead of cover for mobile */
+    background-repeat: no-repeat;
+  }
+}
